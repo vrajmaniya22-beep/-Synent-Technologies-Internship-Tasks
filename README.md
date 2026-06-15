@@ -1,0 +1,1 @@
+# -Synent-Technologies-Internship-Task-2-Responsive-Landing-Page
