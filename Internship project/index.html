@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumina — The AI-powered design workspace that helps teams create, collaborate, and ship beautiful products faster than ever." />
+  <title>Lumina — Design Without Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" id="logo-link">
+        <span class="nav__logo-mark">◈</span>
+        Lumina
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#how" class="nav__link">How it works</a></li>
+        <li><a href="#footer" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="#" class="btn btn--ghost" id="signin-btn">Sign in</a>
+        <a href="#" class="btn btn--primary" id="getstarted-nav-btn">Get started</a>
+      </div>
+      <button class="nav__burger" id="burger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobile-menu">
+      <ul>
+        <li><a href="#features" class="nav__link" id="mob-features">Features</a></li>
+        <li><a href="#how" class="nav__link" id="mob-how">How it works</a></li>
+        <li><a href="#footer" class="nav__link" id="mob-contact">Contact</a></li>
+      </ul>
+      <a href="#" class="btn btn--primary" id="mob-getstarted-btn">Get started free</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+
+      <div class="container">
+        <div class="hero__badge" id="hero-badge">
+          <span class="badge__dot"></span>
+          New · AI Design Engine v2.0 is live
+        </div>
+
+        <h1 class="hero__title" id="hero-title">
+          Design without<br />
+          <em>limits.</em>
+        </h1>
+
+        <p class="hero__sub" id="hero-subtitle">
+          Lumina is the AI-powered workspace where design teams create stunning products, 
+          collaborate in real time, and ship at the speed of thought.
+        </p>
+
+        <div class="hero__cta" id="hero-cta">
+          <a href="#" class="btn btn--primary btn--lg" id="hero-primary-btn">
+            Start for free
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#features" class="btn btn--outline btn--lg" id="hero-secondary-btn">See features</a>
+        </div>
+
+        <p class="hero__note" id="hero-note">No credit card required · Free for up to 3 projects</p>
+
+        <div class="hero__visual" id="hero-visual">
+          <div class="canvas-mock">
+            <div class="canvas-mock__topbar">
+              <div class="traffic">
+                <span class="traffic__dot traffic__dot--red"></span>
+                <span class="traffic__dot traffic__dot--yellow"></span>
+                <span class="traffic__dot traffic__dot--green"></span>
+              </div>
+              <div class="canvas-mock__tabs">
+                <span class="tab tab--active">Dashboard.fig</span>
+                <span class="tab">Components</span>
+              </div>
+              <div class="canvas-mock__tools">
+                <span class="tool-icon">⬚</span>
+                <span class="tool-icon">◯</span>
+                <span class="tool-icon">✎</span>
+              </div>
+            </div>
+            <div class="canvas-mock__body">
+              <div class="canvas-mock__sidebar">
+                <div class="layer layer--active">
+                  <span>◈</span> Frame 1
+                </div>
+                <div class="layer layer--indent">
+                  <span>▭</span> Header
+                </div>
+                <div class="layer layer--indent">
+                  <span>T</span> Hero Title
+                </div>
+                <div class="layer layer--indent">
+                  <span>▭</span> CTA Button
+                </div>
+                <div class="layer layer--indent2">
+                  <span>▭</span> Card Grid
+                </div>
+                <div class="layer layer--indent2">
+                  <span>◯</span> Avatar
+                </div>
+              </div>
+              <div class="canvas-mock__stage">
+                <div class="mock-card mock-card--lg">
+                  <div class="mock-line mock-line--title"></div>
+                  <div class="mock-line mock-line--sub"></div>
+                  <div class="mock-line mock-line--sub mock-line--short"></div>
+                  <div class="mock-pill"></div>
+                </div>
+                <div class="mock-cards-row">
+                  <div class="mock-card mock-card--sm">
+                    <div class="mock-icon-sq"></div>
+                    <div class="mock-line"></div>
+                    <div class="mock-line mock-line--short"></div>
+                  </div>
+                  <div class="mock-card mock-card--sm mock-card--accent">
+                    <div class="mock-icon-sq mock-icon-sq--light"></div>
+                    <div class="mock-line mock-line--light"></div>
+                    <div class="mock-line mock-line--short mock-line--light"></div>
+                  </div>
+                  <div class="mock-card mock-card--sm">
+                    <div class="mock-icon-sq"></div>
+                    <div class="mock-line"></div>
+                    <div class="mock-line mock-line--short"></div>
+                  </div>
+                </div>
+                <!-- Floating cursors -->
+                <div class="cursor cursor--a" id="cursor-a">
+                  <div class="cursor__dot"></div>
+                  <span>Alice</span>
+                </div>
+                <div class="cursor cursor--b" id="cursor-b">
+                  <div class="cursor__dot cursor__dot--b"></div>
+                  <span>Ben</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__logos" id="hero-logos">
+          <p class="logos__label">Trusted by teams at</p>
+          <div class="logos__row">
+            <span class="logo-item">Stripe</span>
+            <span class="logo-item">Notion</span>
+            <span class="logo-item">Linear</span>
+            <span class="logo-item">Vercel</span>
+            <span class="logo-item">Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Features</span>
+          <h2 class="section-title">Everything your team needs<br />to move <em>fast</em></h2>
+          <p class="section-sub">From wireframe to polished product — all in one beautifully simple workspace.</p>
+        </div>
+
+        <div class="features__grid" id="features-grid">
+
+          <article class="feature-card feature-card--wide" id="feat-1">
+            <div class="feature-card__meta">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M17.5 14v7M14 17.5h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span class="feature-tag">AI-Powered</span>
+            </div>
+            <h3 class="feature-card__title">Intelligent component generation</h3>
+            <p class="feature-card__desc">Describe what you need in plain English and Lumina's AI instantly generates pixel-perfect, production-ready components — no prompt engineering required.</p>
+            <div class="feature-card__visual feat-ai-visual">
+              <div class="ai-prompt">
+                <span class="prompt-cursor">▍</span>
+                <span class="prompt-text">Generate a pricing card with gradient…</span>
+              </div>
+              <div class="ai-result">
+                <div class="ai-card">
+                  <div class="ai-card__badge">Pro</div>
+                  <div class="ai-card__price">$29<span>/mo</span></div>
+                  <div class="ai-card__lines">
+                    <div class="ai-line"></div>
+                    <div class="ai-line ai-line--short"></div>
+                    <div class="ai-line"></div>
+                  </div>
+                  <div class="ai-card__btn">Get started</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card" id="feat-2">
+            <div class="feature-card__meta">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="8" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 19c0-2.485 2.015-4.5 4.5-4.5s4.5 2.015 4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span class="feature-tag">Collaboration</span>
+            </div>
+            <h3 class="feature-card__title">Real-time multiplayer editing</h3>
+            <p class="feature-card__desc">See your team's cursors live. Comment, react, and co-design simultaneously without merge conflicts or version chaos.</p>
+          </article>
+
+          <article class="feature-card" id="feat-3">
+            <div class="feature-card__meta">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3L3 7.5v9L12 21l9-4.5v-9L12 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 3v18M3 7.5l9 4.5 9-4.5" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <span class="feature-tag">Tokens</span>
+            </div>
+            <h3 class="feature-card__title">Design system at scale</h3>
+            <p class="feature-card__desc">Build once, use everywhere. Lumina's token architecture keeps your brand consistent across every platform and screen size automatically.</p>
+          </article>
+
+          <article class="feature-card" id="feat-4">
+            <div class="feature-card__meta">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 17l4-4 4 4M8 13l4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <span class="feature-tag">Export</span>
+            </div>
+            <h3 class="feature-card__title">One-click code export</h3>
+            <p class="feature-card__desc">Export clean React, Vue, or HTML/CSS instantly. Our engine writes code that developers actually want to use — semantic, accessible, and production-ready.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="how" id="how">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Process</span>
+          <h2 class="section-title">From idea to shipped in<br /><em>three steps</em></h2>
+        </div>
+        <div class="how__steps" id="how-steps">
+          <div class="how__step" id="step-1">
+            <div class="step__num">01</div>
+            <h3 class="step__title">Describe your vision</h3>
+            <p class="step__desc">Type what you're building. Our AI understands design intent, not just commands.</p>
+          </div>
+          <div class="how__connector"></div>
+          <div class="how__step" id="step-2">
+            <div class="step__num">02</div>
+            <h3 class="step__title">Refine together</h3>
+            <p class="step__desc">Collaborate with your team in real time. Iterate fast with live feedback loops.</p>
+          </div>
+          <div class="how__connector"></div>
+          <div class="how__step" id="step-3">
+            <div class="step__num">03</div>
+            <h3 class="step__title">Ship with confidence</h3>
+            <p class="step__desc">Export pixel-perfect code or publish directly. Zero handoff friction.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner" id="cta-banner">
+      <div class="cta-banner__glow"></div>
+      <div class="container">
+        <h2 class="cta-banner__title">Ready to design without limits?</h2>
+        <p class="cta-banner__sub">Join 40,000+ designers already building with Lumina.</p>
+        <a href="#" class="btn btn--primary btn--lg" id="cta-main-btn">
+          Get started for free
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo" id="footer-logo">
+            <span class="nav__logo-mark">◈</span>
+            Lumina
+          </a>
+          <p class="footer__tagline">The design workspace for ambitious teams.</p>
+          <div class="footer__socials">
+            <a href="#" class="social-link" id="social-twitter" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M4 20L20 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-github" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links-group">
+          <h4 class="footer__group-title">Product</h4>
+          <ul>
+            <li><a href="#" id="footer-features">Features</a></li>
+            <li><a href="#" id="footer-pricing">Pricing</a></li>
+            <li><a href="#" id="footer-changelog">Changelog</a></li>
+            <li><a href="#" id="footer-roadmap">Roadmap</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links-group">
+          <h4 class="footer__group-title">Company</h4>
+          <ul>
+            <li><a href="#" id="footer-about">About</a></li>
+            <li><a href="#" id="footer-blog">Blog</a></li>
+            <li><a href="#" id="footer-careers">Careers</a></li>
+            <li><a href="#" id="footer-press">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links-group">
+          <h4 class="footer__group-title">Resources</h4>
+          <ul>
+            <li><a href="#" id="footer-docs">Documentation</a></li>
+            <li><a href="#" id="footer-api">API</a></li>
+            <li><a href="#" id="footer-community">Community</a></li>
+            <li><a href="#" id="footer-support">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Lumina, Inc. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#" id="footer-privacy">Privacy</a>
+          <a href="#" id="footer-terms">Terms</a>
+          <a href="#" id="footer-cookies">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
